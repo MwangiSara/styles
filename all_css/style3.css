@@ -1,0 +1,37 @@
+body{
+    background-image: url(../1.magebyRodionKutsaevviaUnsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p1{
+    background-color: burlywood;
+    color: blue;
+    height: 100px;
+}
+#p2{
+    background-color: burlywood;
+    color: brown;
+    height: 100px;
+}
+#p3{
+    background-color: burlywood;
+    color: blanchedalmond;
+    height: 100px;
+}
+/* class selector helps to syle a group of elements */
+.p4{
+    background-color: purple;
+    color: aliceblue;
+    height: 100px;
+}
+
+#d1{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 100px;
+}
+#d2{
+    background-color: rgb(243, 175, 127);
+    color: aliceblue;
+    height: 100px;
+}

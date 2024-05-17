@@ -1,0 +1,96 @@
+/* =====Text Formatting */
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+h1{
+    text-shadow: 20px 10px;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+/* =====Box Model */
+div {
+    color: white;
+    background-color: blueviolet;
+
+    /* Width and Height */
+    height: 100px;
+    width: 800px;
+    overflow: scroll; /* for scrolling */
+
+    /* Padding */
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+
+    /* Margin */
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+   
+
+    /* Borders */
+    border-left: 10px solid green;
+    border-right: 10px dotted red;
+    border-top: 10px double yellow;
+    border-bottom: 10px groove black;
+    
+
+    /* You can also mention they can use short hand approach, But stick on the Long hand,  Refer book2 Pg 31, 32, 33 */
+    /* padding: 30px 30px 30px 30px;
+    margin: 20px 20px 20px 20px;
+    border: solid blue 3px; */
+}
+
+ /* =====Styling Links */
+ a{
+     color: beige;
+     background-color: black;
+     /* Apply Box Model */
+     padding: 10px;
+     margin: 10px;
+
+     /* Remove underline */
+     text-decoration: none;
+
+     /* Put Equal width, Display Each Link as a block, align Text*/
+     width: 200px;
+     display: inline-block;
+     text-align: center;
+ }   
+
+    a:hover {
+        /* When link is highlighted, change some properties value */
+        background-color: grey;
+        /* CSS3 transition feature allows the changes in CSS property values to occur 
+smoothly over a specified duration */
+        transition: background 2s;
+    }
+
+
+    /* ======Style Lists */
+    ol{
+        background-color: aquamarine;
+    }
+
+    li{
+        background-color: burlywood;
+        padding: 20px;
+        margin: 10px;
+        list-style: none;
+        /* Try Different Types */
+        list-style-type: lower-alpha;
+    }

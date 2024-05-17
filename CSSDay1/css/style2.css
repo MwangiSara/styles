@@ -1,0 +1,48 @@
+/* =====Text Formatting */
+body {
+    background-color: darksalmon;
+}
+
+p {
+    text-align: center;
+    text-transform: lowercase;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+h1{
+    letter-spacing: 30px;
+    text-align: center;
+    border: solid 2px wheat;
+}
+
+ a{
+     color: beige;
+     background-color: cornflowerblue;
+     /* Apply Box Model */
+     padding: 10px;
+     margin: 10px;
+
+     /* Remove underline */
+     text-decoration: none;
+
+     /* Put Equal width, Display Each Link as a block, align Text*/
+     width: 200px;
+     display: inline-block;
+     text-align: center;
+ } 
+ 
+  /* ======Style Lists */
+ ol{
+     background-color: darkgray;
+     padding: 30px;
+ }
+
+ li{
+     background-color: cornflowerblue;
+     padding: 20px;
+     margin: 10px;
+     list-style: none;
+     /* Try Different Types */
+     list-style-type: lower-alpha;
+ }
